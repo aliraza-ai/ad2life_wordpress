@@ -1,0 +1,203 @@
+.handing {
+  font-weight: bold;
+  font-size: 30px;
+}
+.bg1 {
+  background-image: url("../img/role.png");
+  /* Full height */
+  height: 100%;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+/*statistics*/
+.underline-green {
+  display: inline-block;
+  position: relative;
+}
+.underline-green::before {
+  content: "";
+  height: 7px;
+  width: 30px;
+  background-color: #149b46;
+  position: absolute;
+  left: 0;
+  bottom: 14px;
+}
+.underline-green::after {
+  content: "";
+  height: 2px;
+  width: 20px;
+  background-color: #cccccc;
+  position: absolute;
+  left: 30px;
+  bottom: 16px;
+}
+.bg2 {
+  background-image: url("../img/finance.png");
+  height: 100%;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.finance {
+  padding-top: 5%;
+}
+
+.finance-button {
+  padding-top: 4%;
+  padding-left: 15%;
+  margin-bottom: 2%;
+}
+
+/*Button Css*/
+.btn-white-shadows {
+  box-shadow: 0 2px #b0b6ba;
+  padding: 0 3px 3px 3px;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: white;
+}
+.white-back-btn {
+  padding: 4px 25px;
+  color: black;
+  border: 1px solid #149b46;
+  background-color: white;
+  border-radius: 50px;
+  font-weight: normal;
+}
+.white-back-btn:hover {
+  color: black;
+  background-color: #c0c0c0;
+}
+
+.green-back-btn {
+  /*margin-left: 17%;*/
+  padding: 10px 25px;
+  box-shadow: 0 2px #b1b7bc;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: normal;
+  background-color: #149b46;
+}
+
+.finance-button .stat-watch {
+  margin-left: 17%;
+}
+
+.bg3 {
+  background-image: url("../img/admaster.png");
+  /* Full height */
+  height: 100%;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.bg3 .container-fluid {
+  padding: 20px;
+}
+.bg3 .container-fluid .profile {
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.bg3 .container-fluid .profile-button {
+  padding-top: 20%;
+  margin-left: -55%;
+  margin-bottom: 0;
+}
+.bg3 .container-fluid .profile-button .watch {
+  margin-left: 18%;
+}
+
+.bg4 {
+  background-image: url("../img/mybanner.png");
+  /* Full height */
+  height: 100%;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin-bottom: 1px;
+  padding-bottom: 1%;
+}
+.bg4 .container-fluid .row .col-md-12 p {
+  margin-bottom: 7%;
+}
+.bg4 .container-fluid .row .col-md-12 .watch {
+  margin-left: 16%;
+}
+
+.add-button {
+  padding-top: 4%;
+  padding-left: 15%;
+  margin-bottom: 2%;
+}
+
+.bg5 {
+  background-image: url("../img/myprofile.png");
+  /* Full height */
+  height: 100%;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.bg5 .container-fluid {
+  padding: 20px;
+  padding-top: 7%;
+}
+.bg5 .container-fluid .profile {
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.bg5 .container-fluid .profile-button {
+  padding-top: 20%;
+  margin-left: -55%;
+  margin-bottom: 0;
+}
+.bg5 .container-fluid .profile-button .watch {
+  margin-left: 18%;
+}
+
+@media only screen and (max-width: 600px) {
+  .finance-button {
+    padding-top: 0;
+    padding-left: 0;
+    margin-bottom: 2%;
+  }
+
+  .bg3 .container-fluid .profile {
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+  }
+
+  .bg3 .container-fluid .profile-button {
+    padding-top: 0;
+    margin-left: 0;
+    /*padding-left: 0;*/
+    margin-bottom: 0;
+  }
+  .bg3 .container-fluid .profile-button .watch {
+    margin-left: 11%;
+  }
+
+  .bg5 .container-fluid .profile {
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+  }
+
+  .bg5 .container-fluid .profile-button {
+    padding-top: 0;
+    margin-left: 0;
+    /*padding-left: 0;*/
+    margin-bottom: 0;
+  }
+  .bg5 .container-fluid .profile-button .watch {
+    margin-left: 11%;
+  }
+
+  .add-button {
+    padding-top: 0;
+    padding-left: 0;
+    margin-bottom: 2%;
+  }
+}

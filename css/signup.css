@@ -1,0 +1,200 @@
+/*sign up*/
+.sign-bg {
+  background-image: linear-gradient(to bottom left, #ca6cfe, #73b2f4);
+}
+.row {
+  margin: 20px 20px 0 20px;
+  padding-left: 6%;
+}
+.row .main-div {
+  background-color: #cdead8;
+  /*height: 350px;*/ /*margin-left: 15%;*/
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-bottom: 7%; /*padding-left: 5%;*/
+}
+.sign-button {
+  padding-top: 4%;
+  padding-left: 15%;
+  margin-bottom: 2%;
+}
+
+/*Button Css*/
+.btn-white-shadows {
+  box-shadow: 0 2px #b0b6ba;
+  padding: 0 3px 3px 3px;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: white;
+}
+.white-back-btn {
+  padding: 4px 25px;
+  color: black;
+  border: 1px solid #149b46;
+  background-color: white;
+  border-radius: 50px;
+}
+.white-back-btn:hover {
+  color: black;
+  background-color: #c0c0c0;
+}
+
+.green-back-btn {
+  /*margin-left: 17%;*/
+  padding: 10px 25px;
+  box-shadow: 0 2px #b1b7bc;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #149b46;
+}
+
+.next {
+  font-weight: bold;
+  padding: 10px 35px;
+}
+.sign-up {
+  background-color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 3%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.signup-h {
+  width: 100%;
+  text-align: center;
+}
+
+.underline-green {
+  text-align: center;
+  /*display: inline-block;*/
+  position: relative;
+}
+.underline-green::before {
+  content: "";
+  height: 7px;
+  width: 30px;
+  background-color: #149b46;
+  position: absolute;
+  left: 44%;
+  bottom: -8px;
+}
+.underline-green::after {
+  content: "";
+  height: 2px;
+  width: 20px;
+  background-color: #cccccc;
+  position: absolute;
+  left: 48.5%;
+  bottom: -5px;
+}
+
+.form-row {
+  padding-left: 5%;
+}
+.form-row .col .form-control {
+  color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 0;
+  border-bottom: 1px solid #e8ebed;
+  width: 70%;
+  margin-top: -10px;
+}
+
+.form-row .col input:focus {
+  color: black;
+  box-shadow: none;
+  border-bottom: 1px solid #149b46;
+}
+
+.form-row .col .names {
+  color: #a9a9bc;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/*checkbox*/
+.cont {
+  display: block;
+  color: #9999b0;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.cont input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #149b46;
+  border-radius: 5px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.cont input:checked ~ .checkmark {
+  background-color: #149b46;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.cont input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.cont .checkmark:after {
+  left: 5px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.have-acc {
+  color: #b6b6c6;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+  .underline-green::before {
+    left: 35%;
+  }
+  .underline-green::after {
+    left: 45.5%;
+  }
+}

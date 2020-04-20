@@ -1,0 +1,36 @@
+
+
+
+
+/***** Top content *****/
+
+.top-content { width: 100%; padding-top: 100px;
+	background-image: url('../img/sliderback.png');
+ background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+ }
+.carousel-inner{
+	padding:0 170px;
+}
+.carousel-control-next, .carousel-control-prev { border: 0; }
+
+
+/***** Section 1 *****/
+
+
+
+/***** Section 2 *****/
+.arrows-border{
+	height: 50px;width: 50px;border-radius: 50%;background-color: grey;
+	padding:14px; 
+}
+.image-border{
+	border: 3px solid black;border-radius: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .carousel-inner {
+    padding: 0;margin: 0;
+  }
+}
+

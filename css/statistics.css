@@ -1,0 +1,206 @@
+body {
+  /*font-family: Microsoft Sans Serif;*/
+  font-family: Montserrat SemiBold;
+  overflow-x: hidden;
+}
+
+.form-inline .fab {
+  border: 1px solid #0f75bc;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+  color: #0f75bc;
+}
+.form-inline .fas {
+  border: 1px solid #0f75bc;
+  padding: 5px;
+  border-radius: 15px;
+  color: #0f75bc;
+}
+.form-inline .usa {
+  border: 1px solid #0f75bc;
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+  background-color: white;
+  color: #0f75bc;
+  padding: 0;
+}
+.col-md-2 .form-inline .fab {
+  color: black;
+  padding: 5px;
+  font-size: 20px;
+  float: left;
+}
+.col-md-2 .vl {
+  border-right: 2px solid black;
+  width: 30px;
+  height: 30px;
+}
+.navbar .nav-item .nav-link {
+  color: black;
+  font-size: 20px;
+}
+.links {
+  font-weight: bold;
+}
+.handing {
+  font-weight: bold;
+  font-size: 30px;
+}
+.bg1 {
+  background-image: url("../img/role.png");
+  /* Full height */
+  height: 100%;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+/*statistics*/
+.underline-green {
+  display: inline-block;
+  position: relative;
+}
+.underline-green::before {
+  content: "";
+  height: 7px;
+  width: 30px;
+  background-color: #149b46;
+  position: absolute;
+  left: 0;
+  bottom: 14px;
+}
+.underline-green::after {
+  content: "";
+  height: 2px;
+  width: 20px;
+  background-color: #cccccc;
+  position: absolute;
+  left: 30px;
+  bottom: 16px;
+}
+.bg2 {
+  background-image: url("../img/body.png");
+  height: 100%;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.Statistics {
+  padding-top: 5%;
+}
+
+.Statistics-button {
+  padding-top: 4%;
+  padding-left: 15%;
+  margin-bottom: 2%;
+}
+
+/*Button Css*/
+.btn-white-shadows {
+  box-shadow: 0 2px #b0b6ba;
+  padding: 0 3px 3px 3px;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: white;
+}
+.white-back-btn {
+  padding: 4px 25px;
+  color: black;
+  border: 1px solid #149b46;
+  background-color: white;
+  border-radius: 50px;
+}
+.white-back-btn:hover {
+  color: black;
+  background-color: #c0c0c0;
+}
+
+.green-back-btn {
+  /*margin-left: 17%;*/
+  padding: 10px 25px;
+  box-shadow: 0 2px #b1b7bc;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #149b46;
+}
+
+.Statistics-button .stat-watch {
+  margin-left: 17%;
+}
+
+.bg3 {
+  background-image: url("../img/body1.png");
+  /* Full height */
+  height: 100%;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.bg3 .container-fluid {
+  padding: 20px;
+}
+.bg3 .container-fluid .profile {
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.bg3 .container-fluid .profile-button {
+  padding-top: 20%;
+  margin-left: -55%;
+  margin-bottom: 0;
+}
+.bg3 .container-fluid .profile-button .watch {
+  margin-left: 18%;
+}
+
+.bg4 {
+  background-image: url("../img/add.png");
+  /* Full height */
+  height: 100%;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin-bottom: 1px;
+  padding-bottom: 1%;
+}
+.bg4 .container-fluid .row .col-md-12 p {
+  margin-bottom: 7%;
+}
+.bg4 .container-fluid .row .col-md-12 .watch {
+  margin-left: 16%;
+}
+
+.add-button {
+  padding-top: 4%;
+  padding-left: 15%;
+  margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .Statistics-button {
+    padding-top: 0;
+    padding-left: 0;
+    margin-bottom: 2%;
+  }
+
+  .bg3 .container-fluid .profile {
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+  }
+
+  .bg3 .container-fluid .profile-button {
+    padding-top: 0;
+    margin-left: 0;
+    /*padding-left: 0;*/
+    margin-bottom: 0;
+  }
+  .bg3 .container-fluid .profile-button .watch {
+    margin-left: 11%;
+  }
+
+  .add-button {
+    padding-top: 0;
+    padding-left: 0;
+    margin-bottom: 2%;
+  }
+}
